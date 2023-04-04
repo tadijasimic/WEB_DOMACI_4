@@ -1,0 +1,15 @@
+mon1     popara
+mon2    pasulj
+mon3    boranija
+tue1    gulas
+tue2    becka
+tue3    paprikas
+wed1    banana
+wed2    kajsija
+wed3    burek
+thu1    sladoled
+thu2    kupus
+thu3    lignje
+fri1    ostrige
+fri2    kavijar
+fri3    corba

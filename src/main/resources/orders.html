@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Preview</title>
+    <style>
+        .preview {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 16px;
+            width: 70%;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .meal {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .day {
+            margin-top: 30px;
+            margin-bottom: 20px ;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 30px;
+            margin-left: 1060px;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Order Preview</h1>
+<form method="POST" action="/orders">
+    <button type="submit" class="btn">Restart</button>
+</form>
+    <div class="preview">
+       HERE
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select Meals for the Week</title>
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 18px;
+      width: 70%;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    label {
+      margin-bottom: 15px;
+    }
+
+    select {
+      margin-bottom: 15px;
+      font-size: 18px;
+      border: 1px solid black;
+      padding: 5px;
+      width: calc(30%);
+    }
+    select:hover {
+      opacity: 0.6;
+    }
+    option {
+      cursor: pointer;
+    }
+    option:hover {
+      opacity: 0.6;
+    }
+
+     .btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right:  calc(35%);
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+    hr {
+      border: 1px solid rgba(0, 0, 0, 0.17);
+      outline-width: medium;
+      width: calc(40%);
+      margin: 15px 0;
+
+    }
+  </style>
+</head>
+<body>
+<h1>Select Your Meals for the Week</h1>
+<form method="POST" action="/make_order">
+  <label for="select1">Monday:</label>
+  <select name="select1" id="select1">
+    <option value=" mon1 "> mon1 </option>
+    <option value=" mon2 "> mon2 </option>
+    <option value=" mon3 "> mon3 </option>
+  </select>
+  <hr>
+  <label for="select2">Tuesday:</label>
+  <select name="select2" id="select2">
+    <option value=" tue1 "> tue1 </option>
+    <option value=" tue2 "> tue2 </option>
+    <option value=" tue3 "> tue3 </option>
+  </select>
+  <hr>
+  <label for="select3">Wednesday:</label>
+  <select name="select3" id="select3">
+    <option value="wed1">wed1</option>
+    <option value="wed2">wed2</option>
+    <option value="wed3">wed3</option>
+  </select>
+  <hr>
+  <label for="select4">Thursday:</label>
+  <select name="select4" id="select4">
+    <option value="thu1">thu1</option>
+    <option value="thu2">thu2</option>
+    <option value="thu3">thu3</option>
+  </select>
+  <hr>
+  <label for="select5">Friday:</label>
+  <select name="select5" id="select5">
+    <option value="fri1">fri1</option>
+    <option value="fri2">fri2</option>
+    <option value="fri3">fri3</option>
+  </select>
+  <button type="submit" class="btn">Order Food</button>
+</form>
+</body>
+</html>
